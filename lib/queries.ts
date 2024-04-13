@@ -1,4 +1,11 @@
-export const getStudentPerformance = async () => {
+export const getStudentPerformanceOverPeriod = async (
+  start: Date,
+  stop: Date
+) => {
+  const today = new Date();
+  console.log("start ", start);
+  console.log("stop ", stop);
+  console.log("today ", today.toDateString());
   return {
     cats: ["math", "phys"],
     index: "date",

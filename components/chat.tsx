@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { useActions, useUIState } from "ai/rsc";
-import { useState } from "react";
+import React, { useState } from "react";
 
 export default function Chat() {
   const [inputValue, setInputValue] = useState("");
@@ -19,10 +19,10 @@ export default function Chat() {
         {
           // View messages in UI state
           messages.map((message) => (
-            <>
-              <ChatMessage message={message} key={message.id} />
+            <React.Fragment key={message.id}>
+              <ChatMessage message={message} />
               <Separator />
-            </>
+            </React.Fragment>
           ))
         }
       </ScrollArea>

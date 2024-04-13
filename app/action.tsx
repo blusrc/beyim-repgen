@@ -1,4 +1,4 @@
-import { getStudentPerformance } from "@/lib/queries";
+import { getStudentPerformanceOverPeriod } from "@/lib/queries";
 import { LineChart } from "@tremor/react";
 import { createAI, render } from "ai/rsc";
 import { LoaderIcon } from "lucide-react";
@@ -11,6 +11,8 @@ const openai = new OpenAI({
 
 async function submitUserMessage(userInput: string) {
   "use server";
+
+  const today = new Date();
 
   const ui = render({
     provider: openai,
@@ -25,13 +27,26 @@ async function submitUserMessage(userInput: string) {
 
     // specific queries
     tools: {
-      get_student_performance: {
-        description: "Get students current performance",
-        parameters: z.object({}).required(),
-        render: async function* () {
+      get_student_performance_slice: {
+        description: "Get students current performance over a certain period",
+        parameters: z
+          .object({
+            periodStart: z
+              .date()
+              .describe(`Day period starts, today is: ${today.toDateString()}`),
+            periodStop: z
+              .date()
+              .describe(
+                `Day period ends, including today. Today is: ${today.toDateString()}`
+              ),
+          })
+          .required(),
+        render: async function* ({ periodStart, periodStop }) {
           yield <LoaderIcon className="animate-spin size-6" />;
-          const data = await getStudentPerformance();
-          console.log(data);
+          const data = await getStudentPerformanceOverPeriod(
+            periodStart,
+            periodStop
+          );
           return (
             <LineChart
               className="h-80 w-90"
