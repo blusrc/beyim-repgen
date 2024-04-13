@@ -53,7 +53,7 @@ async function submitUserMessage(userInput: string) {
               data={data.chartdata}
               index={data.index}
               categories={data.cats}
-              yAxisWidth={80}
+              yAxisWidth={60}
             />
           );
         },
