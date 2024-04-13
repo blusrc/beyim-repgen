@@ -3,7 +3,7 @@ import { DatePickerWithRange } from "@/components/date-range-picker";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import useDateRangeStore from "@/lib/stores/dashboard";
-import { AreaChart, LineChart } from "@tremor/react";
+import { AreaChart, DonutChart, LineChart, BarChart } from "@tremor/react";
 
 export default function DashboardPage() {
   return (
@@ -41,6 +41,93 @@ export default function DashboardPage() {
             categories={["math", "phys"]}
           />
         </CardContent>
+      </Card>
+      <Card>
+        <CardHeader>
+          <CardTitle>Group Performance Donut</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <DonutChart
+            data={[
+              { name: "Excellent", value: 30 },
+              { name: "Good", value: 40 },
+              { name: "Satisfactory", value: 20 },
+              { name: "Bad", value: 10 },
+            ]}
+            variant="donut"
+            colors={["green", "yellow", "orange", "red"]}
+            onValueChange={(v) => console.log(v)}
+            label="10B"
+          />
+        </CardContent>
+      </Card>
+      <Card>
+        <CardHeader>
+          <CardTitle>Group Performance Per Module</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <BarChart
+            data={[
+              {
+                name: "Module 3",
+                Ayazhan: 510,
+                Assylkhan: 520,
+                Dimash: 570,
+                Aqbota: 510,
+              },
+            ]}
+            index="name"
+            categories={["Ayazhan", "Assylkhan", "Dimash", "Aqbota"]}
+            colors={["blue", "teal", "amber", "rose", "indigo", "emerald"]}
+          />
+        </CardContent>
+      </Card>
+      <Card>
+        <CardHeader>
+          <CardTitle>Group Performance for All Modules</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <BarChart
+            data={[
+              {
+                name: "Module 1",
+                Ayazhan: 560,
+                Assylkhan: 420,
+                Dimash: 550,
+                Aqbota: 410,
+              },
+              {
+                name: "Module 2",
+                Ayazhan: 570,
+                Assylkhan: 500,
+                Dimash: 500,
+                Aqbota: 480,
+              },
+              {
+                name: "Module 3",
+                Ayazhan: 510,
+                Assylkhan: 520,
+                Dimash: 570,
+                Aqbota: 510,
+              },
+            ]}
+            index="name"
+            categories={["Ayazhan", "Assylkhan", "Dimash", "Aqbota"]}
+            colors={["blue", "teal", "amber", "rose", "indigo", "emerald"]}
+          />
+        </CardContent>
+      </Card>
+      <Card>
+        <CardHeader>
+          <CardTitle>Individual Performance over modules</CardTitle>
+        </CardHeader>
+        <CardContent></CardContent>
+      </Card>
+      <Card>
+        <CardHeader>
+          <CardTitle>Individual activity over modules</CardTitle>
+        </CardHeader>
+        <CardContent></CardContent>
       </Card>
     </main>
   );
