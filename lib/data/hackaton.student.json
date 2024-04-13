@@ -1,0 +1,1174 @@
+[{
+  "_id": {
+    "$oid": "661b06af538962d059202473"
+  },
+  "name": "Deborah",
+  "teacher_ids": [],
+  "subjects": [
+    {
+      "name": "Math",
+      "modules": [
+        {
+          "name": "Algebra",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        },
+        {
+          "name": "Geometry",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        },
+        {
+          "name": "Calculus",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "modules": [
+        {
+          "name": "Organic Chemistry",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        },
+        {
+          "name": "BioChemistry",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Music",
+      "modules": [
+        {
+          "name": "Classical Music",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        },
+        {
+          "name": "Bethoven",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "661b06af538962d059202474"
+  },
+  "name": "Dario",
+  "teacher_ids": [],
+  "subjects": [
+    {
+      "name": "Physics",
+      "modules": [
+        {
+          "name": "Mechanic",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        },
+        {
+          "name": "AstroPhysics",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PE",
+      "modules": [
+        {
+          "name": "Basketball",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        },
+        {
+          "name": "Football",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "661b06af538962d059202475"
+  },
+  "name": "Blaze",
+  "teacher_ids": [],
+  "subjects": [
+    {
+      "name": "Informatics",
+      "modules": [
+        {
+          "name": "C++",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        },
+        {
+          "name": "go",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "modules": [
+        {
+          "name": "Kazakhstan history",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        },
+        {
+          "name": "Usa history",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        },
+        {
+          "name": "Modern history",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "661b06af538962d059202476"
+  },
+  "name": "Ashton",
+  "teacher_ids": [],
+  "subjects": [
+    {
+      "name": "Design",
+      "modules": [
+        {
+          "name": "Pablo Picasso",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        },
+        {
+          "name": "PostModern",
+          "activities": [
+            {
+              "activity_time": 0.18323303172260902,
+              "date": {
+                "$date": "2024-04-01T13:00:00.000Z"
+              },
+              "conf_score": -11.582585123936116,
+              "cumulative_conf_score": -11.582585123936116
+            },
+            {
+              "activity_time": 3.4142453620344635,
+              "date": {
+                "$date": "2024-04-02T13:00:00.000Z"
+              },
+              "conf_score": 49.38026504227692,
+              "cumulative_conf_score": 37.797679918340805
+            },
+            {
+              "activity_time": 3.5172983925685344,
+              "date": {
+                "$date": "2024-04-03T13:00:00.000Z"
+              },
+              "conf_score": 66.77448540585058,
+              "cumulative_conf_score": 104.57216532419139
+            },
+            {
+              "activity_time": 6.466294586886731,
+              "date": {
+                "$date": "2024-04-04T13:00:00.000Z"
+              },
+              "conf_score": 13.111174444224664,
+              "cumulative_conf_score": 117.68333976841605
+            },
+            {
+              "activity_time": 6.801014290605625,
+              "date": {
+                "$date": "2024-04-05T13:00:00.000Z"
+              },
+              "conf_score": 42.63635638569965,
+              "cumulative_conf_score": 160.3196961541157
+            },
+            {
+              "activity_time": 0.37811876812731604,
+              "date": {
+                "$date": "2024-04-06T13:00:00.000Z"
+              },
+              "conf_score": -12.456367751032673,
+              "cumulative_conf_score": 147.86332840308302
+            },
+            {
+              "activity_time": 7.066081911225474,
+              "date": {
+                "$date": "2024-04-07T13:00:00.000Z"
+              },
+              "conf_score": 41.74086297970146,
+              "cumulative_conf_score": 189.60419138278448
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}]
