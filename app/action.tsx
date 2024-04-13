@@ -1,4 +1,5 @@
-import Weather from "@/components/weather";
+import { getStudentPerformance } from "@/lib/queries";
+import { LineChart } from "@tremor/react";
 import { createAI, render } from "ai/rsc";
 import { LoaderIcon } from "lucide-react";
 import OpenAI from "openai";
@@ -8,13 +9,7 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-async function getWeather(city: string) {
-  // External API Call to get the Data
-  return 90;
-}
-
 async function submitUserMessage(userInput: string) {
-  // 'What is the weather in SF?'
   "use server";
 
   const ui = render({
@@ -30,17 +25,22 @@ async function submitUserMessage(userInput: string) {
 
     // specific queries
     tools: {
-      get_city_weather: {
-        description: "Get the current weather for a city",
-        parameters: z
-          .object({
-            city: z.string().describe("the city"),
-          })
-          .required(),
-        render: async function* ({ city }) {
+      get_student_performance: {
+        description: "Get students current performance",
+        parameters: z.object({}).required(),
+        render: async function* () {
           yield <LoaderIcon className="animate-spin size-6" />;
-          const weather = await getWeather(city);
-          return <Weather info={weather} />;
+          const data = await getStudentPerformance();
+          console.log(data);
+          return (
+            <LineChart
+              className="h-80 w-90"
+              data={data.chartdata}
+              index={data.index}
+              categories={data.cats}
+              yAxisWidth={80}
+            />
+          );
         },
       },
     },
@@ -49,7 +49,7 @@ async function submitUserMessage(userInput: string) {
   return {
     id: Date.now(),
     display: ui,
-    role: "bot",
+    role: "assistant",
   };
 }
 

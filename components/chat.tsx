@@ -14,8 +14,8 @@ export default function Chat() {
   const { submitUserMessage } = useActions<typeof AI>();
 
   return (
-    <div className="w-xl p-2 border-border rounded-md border flex-1 flex flex-col shadow-md mx-auto">
-      <ScrollArea className="flex-1">
+    <div className="max-w-xl w-full border-border border h-screen flex flex-col shadow-md mx-auto">
+      <ScrollArea className="flex-1 p-2">
         {
           // View messages in UI state
           messages.map((message) => (
@@ -41,6 +41,7 @@ export default function Chat() {
             },
           ]);
 
+          setInputValue("");
           // Submit and get response message
           const responseMessage = await submitUserMessage(inputValue);
 
@@ -48,17 +49,17 @@ export default function Chat() {
             ...currentMessages,
             responseMessage,
           ]);
-
-          setInputValue("");
         }}
       >
-        <Input
-          placeholder="Send a message..."
-          value={inputValue}
-          onChange={(event) => {
-            setInputValue(event.target.value);
-          }}
-        />
+        <div className="p-4 border-t">
+          <Input
+            placeholder="Send a message..."
+            value={inputValue}
+            onChange={(event) => {
+              setInputValue(event.target.value);
+            }}
+          />
+        </div>
       </form>
     </div>
   );

@@ -17,7 +17,7 @@ export default function ChatMessage({ message }: { message: any }) {
         key={message.id}
         className={cn(
           "border border-border rounded-lg my-2 p-2",
-          message.role === "user" ? "bg-secondary" : "bg-slate-200"
+          message.role === "user" ? "bg-secondary" : "flex-1"
         )}
       >
         {message.display}
