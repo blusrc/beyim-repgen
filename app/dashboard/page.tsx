@@ -9,7 +9,14 @@ import {
   LineChart,
   BarChart,
   BarList,
+  Tracker,
+  type CustomColor,
 } from "@tremor/react";
+
+interface Tracker {
+  color: CustomColor;
+  tooltip: string;
+}
 
 export default function DashboardPage() {
   return (
@@ -143,7 +150,18 @@ export default function DashboardPage() {
         <CardHeader>
           <CardTitle>Individual activity over modules</CardTitle>
         </CardHeader>
-        <CardContent></CardContent>
+        <CardContent>
+          <Tracker
+            data={[
+              { color: "emerald", tooltip: "2h" },
+              { color: "emerald", tooltip: "2.5h" },
+              { color: "yellow", tooltip: "1h" },
+              { color: "emerald", tooltip: "2h" },
+              { color: "rose", tooltip: "0h" },
+              { color: "emerald", tooltip: "2h" },
+            ]}
+          />
+        </CardContent>
       </Card>
     </main>
   );
