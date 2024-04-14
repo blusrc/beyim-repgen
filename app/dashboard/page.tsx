@@ -56,25 +56,7 @@ export default function DashboardPage() {
           />
         </CardContent>
       </Card>
-      <Card>
-        <CardHeader>
-          <CardTitle>Group Performance Donut</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <DonutChart
-            data={[
-              { name: "Excellent", value: 30 },
-              { name: "Good", value: 40 },
-              { name: "Satisfactory", value: 20 },
-              { name: "Bad", value: 10 },
-            ]}
-            variant="donut"
-            colors={["green", "yellow", "orange", "red"]}
-            onValueChange={(v) => console.log(v)}
-            label="10B"
-          />
-        </CardContent>
-      </Card>
+
       <Card>
         <CardHeader>
           <CardTitle>Group Performance Per Module</CardTitle>
@@ -140,49 +122,71 @@ export default function DashboardPage() {
           />
         </CardContent>
       </Card>
-      <Card>
-        <CardHeader>
-          <CardTitle>Individual Performance over modules</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <BarList
-            // name is {subjects.module.name} for each module
-            // value is
-            // {subjects.module.name.conf_score(sum)}
-            // or
-            // the last activity cumulative_conf_score}
-            data={[
-              { name: "Module 1", value: 560 },
-              { name: "Module 2", value: 570 },
-              { name: "Module 3", value: 510 },
-            ]}
-            sortOrder="ascending"
-            color="green"
-          />
-        </CardContent>
-      </Card>
-      <Card>
-        <CardHeader>
-          <CardTitle>Individual activity over modules</CardTitle>
-        </CardHeader>
-        <CardContent>
-          {/* tooltip gets "activity_time"+"h" 
+      <div className="flex gap-4">
+        <Card>
+          <CardHeader>
+            <CardTitle>Individual Performance over modules</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <BarList
+              // name is {subjects.module.name} for each module
+              // value is
+              // {subjects.module.name.conf_score(sum)}
+              // or
+              // the last activity cumulative_conf_score}
+              data={[
+                { name: "Module 1", value: 560 },
+                { name: "Module 2", value: 570 },
+                { name: "Module 3", value: 510 },
+              ]}
+              sortOrder="ascending"
+              color="green"
+            />
+          </CardContent>
+        </Card>
+        <Card>
+          <CardHeader>
+            <CardTitle>Individual activity over modules</CardTitle>
+          </CardHeader>
+          <CardContent>
+            {/* tooltip gets "activity_time"+"h" 
           color changes as 
           rose if "activity_time"<1
           yellow if "activity_time">=1 or "activity_time" < 2 
-          emerald if "activity_time">2 */}
-          <Tracker
-            data={[
-              { color: "emerald", tooltip: "2h" },
-              { color: "emerald", tooltip: "2.5h" },
-              { color: "yellow", tooltip: "1h" },
-              { color: "emerald", tooltip: "2h" },
-              { color: "rose", tooltip: "0h" },
-              { color: "emerald", tooltip: "2h" },
-            ]}
-          />
-        </CardContent>
-      </Card>
+        emerald if "activity_time">2 */}
+            <Tracker
+              data={[
+                { color: "emerald", tooltip: "2h" },
+                { color: "emerald", tooltip: "2.5h" },
+                { color: "yellow", tooltip: "1h" },
+                { color: "emerald", tooltip: "2h" },
+                { color: "rose", tooltip: "0h" },
+                { color: "emerald", tooltip: "2h" },
+              ]}
+            />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Group Performance Donut</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <DonutChart
+              data={[
+                { name: "Excellent", value: 30 },
+                { name: "Good", value: 40 },
+                { name: "Satisfactory", value: 20 },
+                { name: "Bad", value: 10 },
+              ]}
+              variant="donut"
+              colors={["green", "yellow", "orange", "red"]}
+              onValueChange={(v) => console.log(v)}
+              label="10B"
+            />
+          </CardContent>
+        </Card>
+      </div>
     </main>
   );
 }
