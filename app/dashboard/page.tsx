@@ -12,6 +12,7 @@ import {
   Tracker,
   type CustomColor,
 } from "@tremor/react";
+import { Exo_2 } from "next/font/google";
 
 interface Tracker {
   color: CustomColor;
@@ -79,6 +80,15 @@ export default function DashboardPage() {
           <CardTitle>Group Performance Per Module</CardTitle>
         </CardHeader>
         <CardContent>
+          {/* BAR CHART CAN BE RENDERED USING LOOP
+          for module in modules, render
+          name recieves {subjects.modules.name} 
+          for each student grouped by a common module
+          and students' names adds the same way
+          students' corresponding scores are 
+          {subjects.modules.activities.conf_score(sum) 
+          or 
+          the last activity cumulative_conf_score} */}
           <BarChart
             data={[
               {
@@ -136,6 +146,11 @@ export default function DashboardPage() {
         </CardHeader>
         <CardContent>
           <BarList
+            // name is {subjects.module.name} for each module
+            // value is
+            // {subjects.module.name.conf_score(sum)}
+            // or
+            // the last activity cumulative_conf_score}
             data={[
               { name: "Module 1", value: 560 },
               { name: "Module 2", value: 570 },
@@ -151,6 +166,11 @@ export default function DashboardPage() {
           <CardTitle>Individual activity over modules</CardTitle>
         </CardHeader>
         <CardContent>
+          {/* tooltip gets "activity_time"+"h" 
+          color changes as 
+          rose if "activity_time"<1
+          yellow if "activity_time">=1 or "activity_time" < 2 
+          emerald if "activity_time">2 */}
           <Tracker
             data={[
               { color: "emerald", tooltip: "2h" },
