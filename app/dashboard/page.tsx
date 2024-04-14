@@ -3,7 +3,13 @@ import { DatePickerWithRange } from "@/components/date-range-picker";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import useDateRangeStore from "@/lib/stores/dashboard";
-import { AreaChart, DonutChart, LineChart, BarChart } from "@tremor/react";
+import {
+  AreaChart,
+  DonutChart,
+  LineChart,
+  BarChart,
+  BarList,
+} from "@tremor/react";
 
 export default function DashboardPage() {
   return (
@@ -121,7 +127,16 @@ export default function DashboardPage() {
         <CardHeader>
           <CardTitle>Individual Performance over modules</CardTitle>
         </CardHeader>
-        <CardContent></CardContent>
+        <CardContent>
+          <BarList
+            data={[
+              { name: "Module 1", value: 560 },
+              { name: "Module 2", value: 570 },
+              { name: "Module 3", value: 510 },
+            ]}
+            sortOrder="ascending"
+          />
+        </CardContent>
       </Card>
       <Card>
         <CardHeader>
