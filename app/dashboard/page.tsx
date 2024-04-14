@@ -135,6 +135,7 @@ export default function DashboardPage() {
               { name: "Module 3", value: 510 },
             ]}
             sortOrder="ascending"
+            color="green"
           />
         </CardContent>
       </Card>
